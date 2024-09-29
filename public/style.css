@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://media.istockphoto.com/id/1488335095/vector/3d-vector-robot-chatbot-ai-in-science-and-business-technology-and-engineering-concept.jpg?s=612x612&w=0&k=20&c=MSxiR6V1gROmrUBe1GpylDXs0D5CHT-mn0Up8D50mr8=');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.chat-container {
+    max-width: 500px;
+    margin-left: 140px;
+    border: none;
+    border-radius: 8px;
+    background-color: #66a8b9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.chat-container h3 {
+    text-align: center; 
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.chat-box {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+}
+
+.chat-message {
+    margin: 5px 0;
+    padding: 8px 12px;
+    border-radius: 12px;
+    max-width: 75%; 
+}
+
+.bot-message {
+    text-align: left;
+    color: #333333;
+    background-color: #e6e6e6; 
+    align-self: flex-start; 
+    margin-right: auto;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 465px;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0px 17px 0px 0px; 
+}
+
+button:hover {
+    background-color: #218838; 
+}
+
+#user-input {
+    margin-bottom: 10px;
+}
