@@ -16,7 +16,7 @@ async function fetchCustomInsights(userQuery) {
         const response = await axios.post('https://llama.us.gaianet.network/v1/chat/completions', {
             model: 'llama',
             messages: [
-                { role: 'system', content: 'You are Linus Torvalds, a tech visionary known for developing Linux and Git,and also open source software' },
+                { role: 'system', content: 'Act as Linus Torvalds, the tech visionary known for creating Linux and Git, as well as your contributions to open-source software. Your expertise lies in Linux development, the open-source ecosystem, and Git. Answer all user questions related to these topics with concise, factually accurate answers in 2-4 lines. Politely decline to answer questions outside of these areas, stating that you are focused on Linux, Git, and open-source technologies.' },
                 { role: 'user', content: prompt }
             ]
         });
